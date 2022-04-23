@@ -1,0 +1,163 @@
+
+h1, h2{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    @include ssmall {
+        font-size: 1.2rem;
+    }
+    @include small {
+        font-size: 1.3rem;
+    }
+    @include medium {
+        font-size: 1.4rem;
+    }
+    @include large {
+        font-size: 1.5em;
+    }
+}
+
+.logo {
+    width: 100%;
+     img {
+         width: 80%;
+         margin: 5% 10% 5% 10%;
+     }
+}
+
+
+
+.cards {
+    margin: auto;
+    display: flex;
+    width: 80%;
+    margin: 5% 10% 5% 10%;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+        .card {
+            margin: auto;
+        }
+}
+
+.banner {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    img {
+        width: 100%;
+            }
+    @include medium {
+        display: flex;
+        .bannerA {
+            width: 50%;
+        }
+    }
+}
+        
+
+.bannerB {
+    text-align: center;
+    height: 220px;
+      p { margin-bottom: 1px;
+          margin-top: 1px;
+      }
+      @include small {
+          height: 250px
+        }
+        @include medium {
+        display: flexbox;
+        width: 50%;
+        height: auto;
+            p {
+                display: flex;
+                justify-content: center;
+                
+            }
+            .p1 {
+                margin-top: 15%;
+            }
+      }
+    }
+
+
+
+.insta {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap; 
+    column-gap: 20px;
+    row-gap: 20px;
+      img {
+            width: 40%;
+            margin: auto;
+      }
+}
+
+.follow{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.storyT {
+    position: relative;
+img {
+    width: 100%;
+    position: relative;
+    opacity: 80%;
+    z-index: 1;
+
+}
+
+
+}
+
+.sTelling { 
+width: 80%;
+text-align: center;
+margin: -20% 10% 10% 10%;
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+z-index: 100;
+position: relative;
+opacity: 80%;
+}

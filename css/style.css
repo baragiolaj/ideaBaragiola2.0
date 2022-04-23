@@ -1,0 +1,264 @@
+/**
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+**/
+h1, h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-item {
+  font-family: "Open Sans", sans-serif;
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+}
+
+.card-text {
+  font-family: "Open Sans", sans-serif;
+}
+
+.p1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.p2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+.p3 {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold;
+  font-size: 1.5;
+}
+
+.follow {
+  font-family: "Roboto", sans-serif;
+}
+.follow p {
+  font-size: 2rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+@media only screen and (min-width: 300px) {
+  h1, h2 {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  h1, h2 {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  h1, h2 {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  h1, h2 {
+    font-size: 1.5em;
+  }
+}
+
+.logo {
+  width: 100%;
+}
+.logo img {
+  width: 80%;
+  margin: 5% 10% 5% 10%;
+}
+
+.cards {
+  margin: auto;
+  display: flex;
+  width: 80%;
+  margin: 5% 10% 5% 10%;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.cards .card {
+  margin: auto;
+}
+
+.banner {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+}
+@media only screen and (min-width: 1024px) {
+  .banner {
+    display: flex;
+  }
+  .banner .bannerA {
+    width: 50%;
+  }
+}
+
+.bannerB {
+  text-align: center;
+  height: 220px;
+}
+.bannerB p {
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+@media only screen and (min-width: 600px) {
+  .bannerB {
+    height: 250px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .bannerB {
+    display: flexbox;
+    width: 50%;
+    height: auto;
+  }
+  .bannerB p {
+    display: flex;
+    justify-content: center;
+  }
+  .bannerB .p1 {
+    margin-top: 15%;
+  }
+}
+
+.insta {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.insta img {
+  width: 40%;
+  margin: auto;
+}
+
+.follow {
+  width: 80%;
+  margin: auto;
+}
+
+.storyT {
+  position: relative;
+}
+.storyT img {
+  width: 100%;
+  position: relative;
+  opacity: 80%;
+  z-index: 1;
+}
+
+.sTelling {
+  width: 80%;
+  text-align: center;
+  margin: -20% 10% 10% 10%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  z-index: 100;
+  position: relative;
+  opacity: 80%;
+}
+
+main {
+  background-color: #f4f4f4;
+}
+
+.bannerB {
+  background-color: #f0e9e9;
+}
+
+h1, h2 {
+  background-color: #c0b283;
+}
+
+.nav {
+  background-color: #f0e9e9;
+}
+
+.button {
+  --offset: 10px;
+  --border-size: 2px;
+  display: block;
+  position: relative;
+  padding: 1em 1em;
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: #e55743;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+  transition: background 0.8s ease;
+  margin: 5% auto;
+}
+.button:hover {
+  background: rgba(100, 0, 0, 0.03);
+}
+.button__horizontal, .button__vertical {
+  position: absolute;
+  top: var(--horizontal-offset, 0);
+  right: var(--vertical-offset, 0);
+  bottom: var(--horizontal-offset, 0);
+  left: var(--vertical-offset, 0);
+  transition: transform 0.8s ease;
+  will-change: transform;
+}
+.button__horizontal::before, .button__vertical::before {
+  content: "";
+  position: absolute;
+  border: inherit;
+}
+.button__horizontal {
+  --vertical-offset: calc(var(--offset) * -1);
+  border-top: var(--border-size) solid currentcolor;
+  border-bottom: var(--border-size) solid currentcolor;
+}
+.button__horizontal::before {
+  top: calc(var(--vertical-offset) - var(--border-size));
+  bottom: calc(var(--vertical-offset) - var(--border-size));
+  left: calc(var(--vertical-offset) * -1);
+  right: calc(var(--vertical-offset) * -1);
+}
+.button:hover .button__horizontal {
+  transform: scaleX(0);
+}
+.button__vertical {
+  --horizontal-offset: calc(var(--offset) * -1);
+  border-left: var(--border-size) solid currentcolor;
+  border-right: var(--border-size) solid currentcolor;
+}
+.button__vertical::before {
+  top: calc(var(--horizontal-offset) * -1);
+  bottom: calc(var(--horizontal-offset) * -1);
+  left: calc(var(--horizontal-offset) - var(--border-size));
+  right: calc(var(--horizontal-offset) - var(--border-size));
+}
+.button:hover .button__vertical {
+  transform: scaleY(0);
+}
+
+/*# sourceMappingURL=style.css.map */
