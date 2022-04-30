@@ -2,13 +2,21 @@
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Julius Sans One', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
 **/
 h1, h2 {
   font-family: "Roboto", sans-serif;
 }
 
 .nav-item {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+@media only screen and (min-width: 1024px) {
+  .nav-item {
+    font-size: 1.3rem;
+  }
 }
 
 h5 {
@@ -20,7 +28,7 @@ h5 {
 }
 
 .p1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
 }
@@ -41,6 +49,102 @@ h5 {
 }
 .follow p {
   font-size: 2rem;
+}
+
+.cardDiora .tittle {
+  font-size: 2rem;
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  .cardDiora .tittle {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cardDiora .tittle {
+    text-align: start;
+    font-size: 3rem;
+  }
+}
+.cardDiora .material {
+  font-size: 1rem;
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+}
+@media only screen and (min-width: 1024px) {
+  .cardDiora .material {
+    text-align: start;
+    font-size: 1.2rem;
+  }
+}
+.cardDiora .sprice {
+  font-size: 1.5rem;
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+}
+@media only screen and (min-width: 1024px) {
+  .cardDiora .sprice {
+    text-align: start;
+    font-size: 1.5rem;
+  }
+}
+.cardDiora .price {
+  font-size: 2rem;
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+}
+@media only screen and (min-width: 1024px) {
+  .cardDiora .price {
+    text-align: start;
+    font-size: 2rem;
+  }
+}
+.cardDiora a {
+  text-decoration: none;
+}
+.cardDiora a:link {
+  color: black;
+}
+.cardDiora a:visited {
+  color: black;
+}
+
+h3 {
+  font-size: 3rem;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold;
+}
+
+.nav2 a {
+  font-size: 1.5rem;
+  font-family: "Julius Sans One", sans-serif;
+  color: black;
+}
+.nav2 a a:link {
+  color: black;
+}
+.nav2 a a:visited {
+  color: black;
+}
+@media only screen and (min-width: 300px) {
+  .nav2 a {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .nav2 a {
+    font-size: 2rem;
+  }
+}
+
+.nav1 a {
+  color: black;
+}
+
+.follow {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold;
 }
 
 * {
@@ -70,7 +174,7 @@ h1, h2 {
 }
 @media only screen and (min-width: 1440px) {
   h1, h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 }
 
@@ -78,8 +182,19 @@ h1, h2 {
   width: 100%;
 }
 .logo img {
-  width: 80%;
-  margin: 5% 10% 5% 10%;
+  width: 70%;
+  margin: 3% 15% 3% 15%;
+}
+@media only screen and (min-width: 1024px) {
+  .logo {
+    width: 40%;
+    margin: 0 30% 0 30%;
+  }
+}
+
+.carousel {
+  width: 95%;
+  margin: 0 2.5% 0 2.5%;
 }
 
 .cards {
@@ -114,19 +229,21 @@ h1, h2 {
 
 .bannerB {
   text-align: center;
-  height: 220px;
+  margin-bottom: 2%;
+  height: 250px;
 }
 .bannerB p {
   margin-bottom: 1px;
-  margin-top: 1px;
+  padding-top: 10px;
 }
 @media only screen and (min-width: 600px) {
   .bannerB {
-    height: 250px;
+    height: 280px;
   }
 }
 @media only screen and (min-width: 1024px) {
   .bannerB {
+    font-size: 1.2rem;
     display: flexbox;
     width: 50%;
     height: auto;
@@ -142,6 +259,7 @@ h1, h2 {
 
 .insta {
   margin: auto;
+  margin-top: 5%;
   width: 80%;
   display: flex;
   flex-wrap: wrap;
@@ -156,6 +274,33 @@ h1, h2 {
 .follow {
   width: 80%;
   margin: auto;
+}
+
+.nav-item {
+  margin: 0 5% 0 5%;
+}
+
+.cardDiora {
+  width: 90%;
+  margin: 0 5% 0 5%;
+}
+.cardDiora p {
+  margin-top: 2%;
+}
+.cardDiora img {
+  height: 95%;
+  margin: 2.5% 0 2.5% 0;
+}
+
+.cardDiora .card {
+  box-shadow: 5px 8px 10px 0px rgba(0, 0, 0, 0.69);
+}
+
+h3 {
+  text-align: start;
+  padding: 2%;
+  width: 100%;
+  text-align: center;
 }
 
 .storyT {
@@ -193,6 +338,10 @@ h1, h2 {
 
 .nav {
   background-color: #f0e9e9;
+}
+
+.nav2 {
+  background-color: #f4f4f4;
 }
 
 .button {
