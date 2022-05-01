@@ -2,6 +2,10 @@ main {
     background-color: $papel;
 }
 
+.fila {
+    background-color: $rosa;
+}
+
 .bannerB {
     background-color: $rosa;
 }
@@ -16,4 +20,12 @@ h1, h2 {
 
 .nav2 {
     background-color: $papel;
+}
+
+input {
+    background-color: map-get($color , claro) !important
+}
+
+textarea {
+    background-color: map-get($color , medio) !important
 }

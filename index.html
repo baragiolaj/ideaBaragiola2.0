@@ -16,12 +16,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+<meta name="keyword" content="JMG, 3D, IMPRESION, STL, ANIME, FIGURAS, DIORAMAS, ACCESORIOS">
+<meta name="description" content="JMG 3D te trae las mejores Impresiones 3D. Servicio y asistencia todo el año. Pedinos lo que quieras desde la comodidad de tu casa y nosotros te lo llevamos! Entra a conocernos.">
     <title>JMG3D</title>
 </head>
 <body>
     <header>
       <h1>JMG-3D</h1>
       <h2>IMPRESIONES DE CALIDAD</h2>
+      <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                     <a class="navbar-brand" href="#">
@@ -56,9 +59,14 @@
               </div>
             </div>
           </nav>
+
+          <!-- logo -->
+
           <div class="container logo">
               <img src="./assets/img/logo.png" alt="">
           </div>
+
+          <!-- nav 2 -->
           <ul class="nav nav1 justify-content-center">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Impresiones</a>
@@ -76,6 +84,7 @@
     </header>
 
     <main>
+        <!-- carousel -->
           <div class="carousel">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
@@ -104,14 +113,14 @@
               </button>
             </div>
           </div>
-
+        <!-- cards -->
           <div class="cards">
             <div class="card" style="width: 18rem;">
               <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Accesorios</h5>
                 <p class="card-text">Los mejores accesorios para tu PC y Consolas.</p>
-                <a href="#" class="btn btn-primary">Ver Accesorios</a>
+                <a href="./pages/accesorios.html" class="btn btn-primary">Ver Accesorios</a>
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -127,7 +136,7 @@
               <div class="card-body">
                 <h5 class="card-title">Figuras</h5>
                 <p class="card-text">Encontra aca todas las figura que necesites.</p>
-                <a href="#" class="btn btn-primary">Ver Figuras</a>
+                <a href="./pages/figuras.html" class="btn btn-primary">Ver Figuras</a>
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -135,26 +144,33 @@
               <div class="card-body">
                 <h5 class="card-title">Casa y Jardin</h5>
                 <p class="card-text">Herramientas y decoración para tu casa y jardin.</p>
-                <a href="#" class="btn btn-primary">Ver Tools</a>
+                <a href="./pages/casaJardin.html" class="btn btn-primary">Ver Tools</a>
               </div>
             </div>
           </div>
-          
-          <div class="banner">
-            <div class="bannerA">
-            <img src="./assets/img/fondo.jpg" alt="">
+
+          <!-- Banner -->
+          <div class="row fila">
+            <div class="col-md-6">
+              <div class="bannerA">
+                <img src="./assets/img/fondo.jpg" class="img-fluid" alt="">
+                </div>
             </div>
-            <div class="bannerB">
-              <p class="p1">Cotizá aqui</p>
-              <p class="p2">Los diseños que queres</p>
-              <p class="p3">AL MEJOR PRECIO</p>
-              <button class="button">
-                Click Aquí
-                <div class="button__horizontal"></div>
-                <div class="button__vertical"></div>
-              </button>
+            <div class="col-md-6 align-self-center">
+              <div class="bannerB">
+                <p class="p1">Cotizá aqui</p>
+                <p class="p2">Los diseños que queres</p>
+                <p class="p3">AL MEJOR PRECIO</p>
+                <button class="button">
+                  <a class="clickaqui" href="./pages/cotizaciones.html">Click Aquí</a> 
+                  <div class="button__horizontal"></div>
+                  <div class="button__vertical"></div>
+                </button>
+              </div>
             </div>
           </div>
+
+          <!-- INSTA -->
           <div class="follow">
             <p>Seguinos en <a href="#">Insta</a>😸</p>
           </div>
@@ -219,16 +235,16 @@
             Productos
           </h6>
           <p>
-            <a href="#!" class="text-reset">Accesorios</a>
+            <a href="./pages/accesorios.html" class="text-reset">Accesorios</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Dioramas</a>
+            <a href="./pages/dioramas.html" class="text-reset">Dioramas</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Figuras</a>
+            <a href="./pages/figuras.html" class="text-reset">Figuras</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Casa y Jardin</a>
+            <a href="./pages/casaJardin.html" class="text-reset">Casa y Jardin</a>
           </p>
         </div>
         <!-- Grid column -->

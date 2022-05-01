@@ -8,7 +8,8 @@ font-family: 'Nunito Sans', sans-serif;
 @import "mediaq";
 
 h1, h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
 }
 
 .nav-item {
@@ -132,4 +133,30 @@ h3 {
 .follow {
     font-family: 'Julius Sans One', sans-serif;
     font-weight: bold;
+}
+
+.description {
+    font-size: 1.2rem;
+    font-family: 'Julius Sans One', sans-serif;
+    @include medium {
+        font-size: 1.4rem;
+    }
+}
+
+form {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.btn a:link {
+    color: white;
+}
+.btn a:visited {
+    color: white;
+}
+
+.clickaqui:link {
+    color: black;
+}
+.clickaqui:visited {
+    color: black;
 }

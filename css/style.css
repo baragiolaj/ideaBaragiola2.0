@@ -5,7 +5,8 @@ font-family: 'Julius Sans One', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 **/
 h1, h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold;
 }
 
 .nav-item {
@@ -51,62 +52,62 @@ h5 {
   font-size: 2rem;
 }
 
-.cardDiora .tittle {
+.cardDiora .tittle, .cardFigu .tittle, .cardCj .tittle, .cardAcc .tittle {
   font-size: 2rem;
   font-family: "Julius Sans One", sans-serif;
   text-align: center;
 }
 @media only screen and (min-width: 600px) {
-  .cardDiora .tittle {
+  .cardDiora .tittle, .cardFigu .tittle, .cardCj .tittle, .cardAcc .tittle {
     font-size: 2.5rem;
   }
 }
 @media only screen and (min-width: 1024px) {
-  .cardDiora .tittle {
+  .cardDiora .tittle, .cardFigu .tittle, .cardCj .tittle, .cardAcc .tittle {
     text-align: start;
     font-size: 3rem;
   }
 }
-.cardDiora .material {
+.cardDiora .material, .cardFigu .material, .cardCj .material, .cardAcc .material {
   font-size: 1rem;
   font-family: "Julius Sans One", sans-serif;
   text-align: center;
 }
 @media only screen and (min-width: 1024px) {
-  .cardDiora .material {
+  .cardDiora .material, .cardFigu .material, .cardCj .material, .cardAcc .material {
     text-align: start;
     font-size: 1.2rem;
   }
 }
-.cardDiora .sprice {
+.cardDiora .sprice, .cardFigu .sprice, .cardCj .sprice, .cardAcc .sprice {
   font-size: 1.5rem;
   font-family: "Julius Sans One", sans-serif;
   text-align: center;
 }
 @media only screen and (min-width: 1024px) {
-  .cardDiora .sprice {
+  .cardDiora .sprice, .cardFigu .sprice, .cardCj .sprice, .cardAcc .sprice {
     text-align: start;
     font-size: 1.5rem;
   }
 }
-.cardDiora .price {
+.cardDiora .price, .cardFigu .price, .cardCj .price, .cardAcc .price {
   font-size: 2rem;
   font-family: "Julius Sans One", sans-serif;
   text-align: center;
 }
 @media only screen and (min-width: 1024px) {
-  .cardDiora .price {
+  .cardDiora .price, .cardFigu .price, .cardCj .price, .cardAcc .price {
     text-align: start;
     font-size: 2rem;
   }
 }
-.cardDiora a {
+.cardDiora a, .cardFigu a, .cardCj a, .cardAcc a {
   text-decoration: none;
 }
-.cardDiora a:link {
+.cardDiora a:link, .cardFigu a:link, .cardCj a:link, .cardAcc a:link {
   color: black;
 }
-.cardDiora a:visited {
+.cardDiora a:visited, .cardFigu a:visited, .cardCj a:visited, .cardAcc a:visited {
   color: black;
 }
 
@@ -145,6 +146,36 @@ h3 {
 .follow {
   font-family: "Julius Sans One", sans-serif;
   font-weight: bold;
+}
+
+.description {
+  font-size: 1.2rem;
+  font-family: "Julius Sans One", sans-serif;
+}
+@media only screen and (min-width: 1024px) {
+  .description {
+    font-size: 1.4rem;
+  }
+}
+
+form {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.btn a:link {
+  color: white;
+}
+
+.btn a:visited {
+  color: white;
+}
+
+.clickaqui:link {
+  color: black;
+}
+
+.clickaqui:visited {
+  color: black;
 }
 
 * {
@@ -210,31 +241,13 @@ h1, h2 {
   margin: auto;
 }
 
-.banner {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 100%;
-}
-.banner img {
-  width: 100%;
-}
-@media only screen and (min-width: 1024px) {
-  .banner {
-    display: flex;
-  }
-  .banner .bannerA {
-    width: 50%;
-  }
+.fila {
+  margin-bottom: 3%;
 }
 
 .bannerB {
+  margin: auto;
   text-align: center;
-  margin-bottom: 2%;
-  height: 250px;
-}
-.bannerB p {
-  margin-bottom: 1px;
-  padding-top: 10px;
 }
 @media only screen and (min-width: 600px) {
   .bannerB {
@@ -243,17 +256,9 @@ h1, h2 {
 }
 @media only screen and (min-width: 1024px) {
   .bannerB {
-    font-size: 1.2rem;
-    display: flexbox;
-    width: 50%;
-    height: auto;
-  }
-  .bannerB p {
-    display: flex;
-    justify-content: center;
-  }
-  .bannerB .p1 {
-    margin-top: 15%;
+    font-size: 1.9rem;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -280,19 +285,19 @@ h1, h2 {
   margin: 0 5% 0 5%;
 }
 
-.cardDiora {
+.cardDiora, .cardFigu, .cardCj, .cardAcc {
   width: 90%;
   margin: 0 5% 0 5%;
 }
-.cardDiora p {
+.cardDiora p, .cardFigu p, .cardCj p, .cardAcc p {
   margin-top: 2%;
 }
-.cardDiora img {
+.cardDiora img, .cardFigu img, .cardCj img, .cardAcc img {
   height: 95%;
   margin: 2.5% 0 2.5% 0;
 }
 
-.cardDiora .card {
+.cardDiora .card, .cardFigu .card, .cardCj .card, .cardAcc .card {
   box-shadow: 5px 8px 10px 0px rgba(0, 0, 0, 0.69);
 }
 
@@ -301,6 +306,25 @@ h3 {
   padding: 2%;
   width: 100%;
   text-align: center;
+}
+
+.description {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+@media only screen and (min-width: 1024px) {
+  .description {
+    width: 60%;
+    margin: 0 20% 0 20%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  form {
+    width: 70%;
+    margin: auto;
+  }
 }
 
 .storyT {
@@ -328,6 +352,10 @@ main {
   background-color: #f4f4f4;
 }
 
+.fila {
+  background-color: #f0e9e9;
+}
+
 .bannerB {
   background-color: #f0e9e9;
 }
@@ -342,6 +370,14 @@ h1, h2 {
 
 .nav2 {
   background-color: #f4f4f4;
+}
+
+input {
+  background-color: #efefef !important;
+}
+
+textarea {
+  background-color: #f5f5e2 !important;
 }
 
 .button {
