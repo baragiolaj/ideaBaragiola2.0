@@ -28,27 +28,37 @@ h5 {
   font-family: "Open Sans", sans-serif;
 }
 
-.p1 {
+.bannerB .p1 {
   font-family: "Julius Sans One", sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
 }
-
-.p2 {
+.bannerB .p2 {
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
 }
-
-.p3 {
+.bannerB .p3 {
   font-family: "Julius Sans One", sans-serif;
   font-weight: bold;
   font-size: 1.5;
 }
+.bannerB p {
+  font-size: 2rem;
+}
+@media only screen and (min-width: 1024px) {
+  .bannerB .p1 {
+    font-size: 3rem;
+  }
+  .bannerB .p2 {
+    font-size: 3rem;
+  }
+  .bannerB .p3 {
+    font-size: 2.6rem;
+  }
+}
 
 .follow {
   font-family: "Roboto", sans-serif;
-}
-.follow p {
   font-size: 2rem;
 }
 
@@ -178,6 +188,71 @@ form {
   color: black;
 }
 
+h6 {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.desc {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+h4 {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 2.5rem;
+}
+
+.columna2 .price {
+  font-size: 1.5rem;
+  font-family: "Julius Sans One", sans-serif;
+}
+.columna2 .desc {
+  font-size: 1.1rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .columna2 h4 {
+    font-size: 3.5rem;
+  }
+  .columna2 .sku {
+    font-size: 1.3rem;
+  }
+  .columna2 .price {
+    font-size: 1.9rem;
+  }
+  .columna2 .desc {
+    font-size: 1.5rem;
+  }
+}
+
+.shop a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.back:link {
+  color: black;
+}
+
+.back:visited {
+  color: black;
+}
+
+.contact, .contact2 {
+  font-size: 2rem;
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+}
+
+.story .storyp1 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+}
+.story .storyp2 {
+  font-size: 1.4rem;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -264,7 +339,7 @@ h1, h2 {
 
 .insta {
   margin: auto;
-  margin-top: 5%;
+  margin-top: 2%;
   width: 80%;
   display: flex;
   flex-wrap: wrap;
@@ -327,25 +402,71 @@ h3 {
   }
 }
 
-.storyT {
-  position: relative;
+.shop {
+  padding: 5%;
 }
-.storyT img {
-  width: 100%;
-  position: relative;
-  opacity: 80%;
-  z-index: 1;
+.shop img {
+  height: 50%;
+  padding: 5%;
+  margin: auto;
 }
 
-.sTelling {
+.boton6 {
+  margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .columna2 {
+    margin-top: 5%;
+  }
+  .columna2 p {
+    padding: 3%;
+  }
+}
+
+.fila1 {
+  box-shadow: 5px 8px 10px 0px rgba(0, 0, 0, 0.69);
+}
+
+.banner4 {
+  margin: 1% 0 1% 0;
+}
+
+.redesM {
   width: 80%;
-  text-align: center;
-  margin: -20% 10% 10% 10%;
-  background-color: rgb(255, 255, 255);
-  border-radius: 10px;
-  z-index: 100;
-  position: relative;
-  opacity: 80%;
+  margin: auto;
+}
+.redesM a {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.contact {
+  padding: 2%;
+}
+
+.redesM2 {
+  margin: 2% 10% 2% 10%;
+}
+
+.botonform {
+  margin-bottom: 2%;
+}
+
+.story {
+  width: 80%;
+  margin: auto;
+  padding: 4%;
+}
+.story img {
+  margin: auto;
+}
+.story p {
+  margin: auto;
+  padding: 1%;
 }
 
 main {
@@ -378,6 +499,10 @@ input {
 
 textarea {
   background-color: #f5f5e2 !important;
+}
+
+.shop .row {
+  background-color: #f0e9e9;
 }
 
 .button {

@@ -29,3 +29,7 @@ input {
 textarea {
     background-color: map-get($color , medio) !important
 }
+
+.shop .row {
+    background-color: $rosa;
+}

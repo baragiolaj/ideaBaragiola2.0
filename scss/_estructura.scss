@@ -70,7 +70,7 @@ h1, h2{
 
 .insta {
     margin: auto;
-    margin-top: 5%;
+    margin-top: 2%;
     width: 80%;
     display: flex;
     flex-wrap: wrap; 
@@ -137,59 +137,70 @@ form {
     }
 }
 
+.shop {
+    padding: 5%;
+     img {
+         height: 50%;
+         padding: 5%;
+         margin: auto;
+     }
+}
 
+.boton6 {
+    margin-bottom: 5%;
+}
 
+.columna2 {
+    @include medium {
+        margin-top: 5%;
+        p {
+            padding: 3%;
+        }
+    }
+}
 
+.fila1 {
+    box-shadow: 5px 8px 10px 0px rgba(0, 0, 0, 0.69);
+}
 
+.banner4 {
+    margin: 1% 0 1% 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.storyT {
-    position: relative;
-img {
+.redesM 
+    {
+        width: 80%;
+        margin: auto;
+        a{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     width: 100%;
-    position: relative;
-    opacity: 80%;
-    z-index: 1;
-
+} 
 }
 
-
+.contact {
+    padding: 2%;
 }
 
-.sTelling { 
-width: 80%;
-text-align: center;
-margin: -20% 10% 10% 10%;
-background-color: rgb(255, 255, 255);
-border-radius: 10px;
-z-index: 100;
-position: relative;
-opacity: 80%;
+.redesM2 {
+    margin: 2% 10% 2% 10%;
+}
+
+.botonform {
+    margin-bottom: 2%;
+}   
+
+.story {
+    width: 80%;
+    margin: auto;
+    padding: 4%;
+        img {
+            margin: auto;
+        }
+        p {
+            margin: auto;
+            padding: 1%;
+        }
 }
