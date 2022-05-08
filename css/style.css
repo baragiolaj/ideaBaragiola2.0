@@ -59,7 +59,12 @@ h5 {
 
 .follow {
   font-family: "Roboto", sans-serif;
-  font-size: 2rem;
+  font-size: 1.2rem;
+}
+@media only screen and (min-width: 1024px) {
+  .follow {
+    font-size: 2rem;
+  }
 }
 
 .cardDiora .tittle, .cardFigu .tittle, .cardCj .tittle, .cardAcc .tittle {
@@ -340,6 +345,7 @@ h1, h2 {
 .insta {
   margin: auto;
   margin-top: 2%;
+  padding: 2%;
   width: 80%;
   display: flex;
   flex-wrap: wrap;
@@ -469,6 +475,16 @@ h3 {
   padding: 1%;
 }
 
+#contactForm {
+  width: 90%;
+  margin: auto;
+}
+@media only screen and (min-width: 1024px) {
+  #contactForm {
+    width: 70%;
+  }
+}
+
 main {
   background-color: #f4f4f4;
 }
@@ -493,16 +509,16 @@ h1, h2 {
   background-color: #f4f4f4;
 }
 
+.shop .row {
+  background-color: #f0e9e9;
+}
+
 input {
-  background-color: #efefef !important;
+  background-color: #f0e9e9 !important;
 }
 
 textarea {
-  background-color: #f5f5e2 !important;
-}
-
-.shop .row {
-  background-color: #f0e9e9;
+  background-color: #efe4c3 !important;
 }
 
 .button {

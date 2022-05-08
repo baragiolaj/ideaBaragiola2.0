@@ -71,6 +71,7 @@ h1, h2{
 .insta {
     margin: auto;
     margin-top: 2%;
+    padding: 2%;
     width: 80%;
     display: flex;
     flex-wrap: wrap; 
@@ -203,4 +204,12 @@ form {
             margin: auto;
             padding: 1%;
         }
+}
+
+#contactForm {
+    width: 90%;
+    margin: auto;
+    @include medium {
+        width: 70%;
+    }
 }

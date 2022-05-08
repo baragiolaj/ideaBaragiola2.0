@@ -22,14 +22,15 @@ h1, h2 {
     background-color: $papel;
 }
 
-input {
-    background-color: map-get($color , claro) !important
-}
-
-textarea {
-    background-color: map-get($color , medio) !important
-}
 
 .shop .row {
     background-color: $rosa;
+}
+
+input {
+    background-color: $rosa !important;
+}
+
+textarea {
+    background-color: $orito !important;
 }

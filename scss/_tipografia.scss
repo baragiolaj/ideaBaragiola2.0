@@ -62,7 +62,10 @@ h5 {
 
 .follow {
     font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
+    font-size: 1.2rem;
+        @include medium{
+            font-size: 2rem;
+        }
 }
 
 .cardDiora {
