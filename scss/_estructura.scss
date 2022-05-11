@@ -34,6 +34,24 @@ h1, h2{
     margin: 0 2.5% 0 2.5%;
 }
 
+.nav1 {
+    @include ssmall {
+        display: flex;
+        flex-direction: column;
+        }
+        @include small {
+            display: flex;
+            flex-direction: column;
+            }
+            @include medium {
+                display: flex;
+                flex-direction: row;
+                }
+    @include large {
+    display: flex;
+    flex-direction: row;
+    }
+}
 
 .cards {
     margin: auto;
@@ -194,7 +212,6 @@ form {
 }   
 
 .story {
-    width: 80%;
     margin: auto;
     padding: 4%;
         img {
@@ -203,6 +220,9 @@ form {
         p {
             margin: auto;
             padding: 1%;
+        }
+        @include medium {
+            width: 65%;
         }
 }
 
